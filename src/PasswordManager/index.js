@@ -36,7 +36,7 @@ const PasswordManager = () => {
     }
   }
 
-  console.log('credentials', credentials)
+  console.log('credentials=>', credentials)
 
   const handletext = e => {
     const query = e.target.value
